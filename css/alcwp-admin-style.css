@@ -1,0 +1,93 @@
+.alcwp_main_area {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+
+.alcwp_common {
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 20px 25px;
+    max-width: 750px; 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.alcwp_body_area {
+    flex-basis: 80%;
+    margin: 0 auto;
+}
+
+.alcwp_sidebar_area {
+    flex-basis: 48%; 
+}
+
+.alcwp_main_area h3#title {
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.alcwp_main_area label {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.alcwp_main_area input {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ddd;
+    width: 100%; 
+    padding: 15px;
+}
+
+.alcwp_main_area input[type="color"] {
+    padding: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 70px;
+}
+img#alcwp-custom-bg-image-preview{
+    margin: 0 auto;
+    padding: 8px;
+}
+img#alcwp-logo-image-url-preview{
+    margin: 0 auto;
+    padding: 8px;
+}
+/* Add these styles to your existing CSS */
+
+/* Style for the remove button */
+.alcwp-remove-image {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #ff6666; 
+    color: #fff; 
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the remove button */
+.alcwp-remove-image:hover {
+    background-color: #e60000; 
+}
+input[type="submit"] {
+    background: linear-gradient(45deg, #11e5c0, #001c81);
+    color: #fff; 
+    padding: 8px 35px;
+    cursor: pointer;
+}

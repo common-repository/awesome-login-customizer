@@ -1,0 +1,107 @@
+/* awesome-login-styles.css */
+
+body.login {
+  background: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+body.login::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#login {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+}
+#login label{
+  color: #fff;
+}
+
+
+
+#login form p.submit input {
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+#login form p.submit input:hover {
+  transform: translateX(5px);
+}
+
+#login form p.submit {
+  text-align: center;
+}
+
+#login form {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#login input[type="color"] {
+  padding: 5px;
+  cursor: pointer;
+  width: 100px;
+  height: 70px;
+}
+
+
+#login #backtoblog,
+#login #nav {
+  text-align: center;
+}
+
+#login #backtoblog a,
+#login #nav a {
+  color: #fff;
+}
+
+#login #backtoblog a:hover,
+#login #nav a:hover {
+  color: #ddd;
+}
+
+.login .message,
+.login .notice,
+.login .success {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+#login input {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
